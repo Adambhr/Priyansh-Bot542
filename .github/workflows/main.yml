@@ -116,4 +116,27 @@
         "creation": "2025-09-25T17:56:56.917Z",
         "lastAccessed": "2025-09-25T17:56:56.917Z"
     }
+]        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-09-25T17:56:56.917Z",
+        "lastAccessed": "2025-09-25T17:56:56.917Z"
+    },
+    {
+        "key": "fbl_st",
+        "value": "101420095%3BT%3A29313715",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-09-25T17:56:56.917Z",
+        "lastAccessed": "2025-09-25T17:56:56.917Z"
+    },
+    {
+        "key": "vpd",
+        "value": "v1%3B660x360x2",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-09-25T17:56:56.917Z",
+        "lastAccessed": "2025-09-25T17:56:56.917Z"
+    }
 ]
