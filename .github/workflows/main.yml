@@ -1,146 +1,33 @@
-[
-    {
-        "key": "dbln",
-        "value": "%7B%2261579696323054%22%3A%22se0npFtv%22%2C%22715350429%22%3A%22SPeZGX82%22%2C%2261581215878322%22%3A%22HX4g9oVW%22%2C%22100004379611936%22%3A%227oEd5Ebw%22%2C%2261580326805298%22%3A%22WaJCRThd%22%2C%22100094120833315%22%3A%22GGnPbqiC%22%7D",
-        "domain": "facebook.com",
-        "path": "/login/device-based/",
-        "hostOnly": false,
-        "creation": "2025-09-26T17:17:03.859Z",
-        "lastAccessed": "2025-09-26T17:17:03.859Z"
-    },
-    {
-        "key": "datr",
-        "value": "g-XEaNGVQ-3mM5ulYLCBigRP",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-09-26T17:17:03.859Z",
-        "lastAccessed": "2025-09-26T17:17:03.859Z"
-    },
-    {
-        "key": "sb",
-        "value": "g-XEaBK7U_aJYlbzzY1obg8U",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-09-26T17:17:03.859Z",
-        "lastAccessed": "2025-09-26T17:17:03.859Z"
-    },
-    {
-        "key": "ps_l",
-        "value": "1",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-09-26T17:17:03.859Z",
-        "lastAccessed": "2025-09-26T17:17:03.859Z"
-    },
-    {
-        "key": "ps_n",
-        "value": "1",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-09-26T17:17:03.859Z",
-        "lastAccessed": "2025-09-26T17:17:03.859Z"
-    },
-    {
-        "key": "dpr",
-        "value": "2.5303103923797607",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-09-26T17:17:03.859Z",
-        "lastAccessed": "2025-09-26T17:17:03.859Z"
-    },
-    {
-        "key": "vpd",
-        "value": "v1%3B575x313x2.3014395236968994",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-09-26T17:17:03.859Z",
-        "lastAccessed": "2025-09-26T17:17:03.859Z"
-    },
-    {
-        "key": "locale",
-        "value": "ar_AR",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-09-26T17:17:03.859Z",
-        "lastAccessed": "2025-09-26T17:17:03.859Z"
-    },
-    {
-        "key": "m_pixel_ratio",
-        "value": "2.3014395236968994",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-09-26T17:17:03.859Z",
-        "lastAccessed": "2025-09-26T17:17:03.859Z"
-    },
-    {
-        "key": "wd",
-        "value": "360x806",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-09-26T17:17:03.859Z",
-        "lastAccessed": "2025-09-26T17:17:03.859Z"
-    },
-    {
-        "key": "pas",
-        "value": "61579696323054%3APMohLoDbJM%2C715350429%3AkU6YBrISvz%2C61581215878322%3AD4ZVuawnvs%2C100089165295689%3ASCzfL3doid%2C100004379611936%3AtFxiP3xj4n%2C61580326805298%3AOXdV8aTX3n%2C100094120833315%3AagReSOwwsB",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-09-26T17:17:03.859Z",
-        "lastAccessed": "2025-09-26T17:17:03.859Z"
-    },
-    {
-        "key": "c_user",
-        "value": "100094120833315",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-09-26T17:17:03.859Z",
-        "lastAccessed": "2025-09-26T17:17:03.859Z"
-    },
-    {
-        "key": "xs",
-        "value": "45%3AEdRy4JXSCze6eQ%3A2%3A1758906987%3A-1%3A-1",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-09-26T17:17:03.859Z",
-        "lastAccessed": "2025-09-26T17:17:03.859Z"
-    },
-    {
-        "key": "fr",
-        "value": "1Da3DiVLJW0lCaODf.AWcMo-ELRmHN8l0n4BCgyDNPmOT0h70ddvpLridWqmAjrDkczw8.Bo1Sit..AAA.0.0.Bo1spw.AWePqjnzYJV0YOvTKQQlYUgPG8Y",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-09-26T17:17:03.859Z",
-        "lastAccessed": "2025-09-26T17:17:03.859Z"
-    },
-    {
-        "key": "fbl_st",
-        "value": "101624871%3BT%3A29315116",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-09-26T17:17:03.859Z",
-        "lastAccessed": "2025-09-26T17:17:03.859Z"
-    },
-    {
-        "key": "wl_cbv",
-        "value": "v2%3Bclient_version%3A2936%3Btimestamp%3A1758906992",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-09-26T17:17:03.859Z",
-        "lastAccessed": "2025-09-26T17:17:03.859Z"
-    }
-]
+name: index.js Package
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - run: npm test
+
+  publish-gpr:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          registry-url: https://npm.pkg.github.com/
+      - run: npm ci
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
