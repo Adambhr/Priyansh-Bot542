@@ -1,8 +1,14 @@
 name: index.js Package
 
+# شغّل عند إنشاء release جديد
 on:
   release:
     types: [created]
+
+# صلاحيات GITHUB_TOKEN اللازمة للنشر
+permissions:
+  contents: read
+  packages: write
 
 jobs:
   build:
@@ -18,16 +24,34 @@ jobs:
   publish-gpr:
     needs: build
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node and registry for GitHub Packages
+        uses: actions/setup-node@v4
         with:
           node-version: 20
           registry-url: https://npm.pkg.github.com/
-      - run: npm ci
-      - run: npm publish
+
+      - name: Show registry + package info (debug)
+        run: |
+          echo "npm registry set to: $(npm config get registry)"
+          echo "package name:"
+          node -e "console.log(require('./package.json').name || 'no name field')"
+          echo "publishConfig:"
+          node -e "console.log(JSON.stringify(require('./package.json').publishConfig || {}, null, 2))"
+          npm whoami --registry https://npm.pkg.github.com || true
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Dry-run publish (shows what would be published)
+        run: npm publish --dry-run
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish to GitHub Packages
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
